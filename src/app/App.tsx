@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { MainPage, FavoritePage, MoviePage, NotFoundPage } from "@pages";
 import { NavBar } from "@widgets/indes";
-import AppRoutes from "@shared/routes";
-import styles from "@shared/styles/global.module.scss"
+import { AppRoutes } from "@shared/routes";
+import styles from "@shared/styles/global.module.scss";
 import "./App.css";
 
 function App() {

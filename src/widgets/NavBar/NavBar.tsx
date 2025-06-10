@@ -1,4 +1,4 @@
-import AppRoutes from "@shared/routes";
+import { AppRoutes } from "@shared/routes";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styles, { navlist } from "./NavBar.module.scss";
