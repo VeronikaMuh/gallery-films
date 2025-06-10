@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Movie } from "@entities/movie/model/types";
+import type { Movie } from "@entities/movie/model/types";
 
 const BASE_URL = "https://api.kinopoisk.dev/v1.4";
 

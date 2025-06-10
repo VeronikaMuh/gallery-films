@@ -1,5 +1,5 @@
 import React from "react";
-import { Movie } from "@entities/movie/model/types";
+import type { Movie } from "@entities/movie/model/types";
 import { MovieCard } from "../MovieCard/MovieCard";
 import styles from './MovieList.module.scss'
 

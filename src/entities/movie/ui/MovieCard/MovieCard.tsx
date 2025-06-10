@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Movie } from "@entities/movie/model/types";
+import type { Movie } from "@entities/movie/model/types";
 import styles from "./MovieCard.module.scss";
 import { useFavoriteStore } from "@features/favorities/model/favorite";
 
